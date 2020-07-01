@@ -4,7 +4,10 @@
   "version": "0.1.2",
   "main": "./build/module.js",
   "author": "taky@taky.com",
-  "repository": "tosadvisor/easy-lorem",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosadvisor/easy-lorem.git"
+  },
   "bin": {
     "easy-lorem": "./bin/easy-lorem"
   },
@@ -14,5 +17,14 @@
   ],
   "dependencies": {
     "wegweg": "^0.14.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tosadvisor/easy-lorem/issues"
+  },
+  "homepage": "https://github.com/tosadvisor/easy-lorem#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
