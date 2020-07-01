@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+process.env.LOREM_STD = 1
+require(__dirname + '/../build/module.js')
+
